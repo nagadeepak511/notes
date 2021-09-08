@@ -1,0 +1,179 @@
+body {
+    background-color: #7BDAF3 !important;
+    margin: auto;
+}
+
+button {
+    background-color: transparent;
+    border: none !important;
+}
+
+textarea {
+    resize: none;
+    border: none !important;
+    outline: none !important;
+    color: #9B9C9C !important;
+}
+
+.file {
+    width: 750px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    margin-top: 41px;
+    display: none;
+}
+
+.file-header {
+    width: 100%;
+    height: 60px;
+    background-color: #ECFAF5;
+}
+
+.delete-file {
+    color: #9EC862;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 31px;
+}
+
+.new-file {
+    color: #9EC862;
+    font-size: 28px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 91px;
+}
+
+.settings {
+    color: #9EC862;
+    font-size: 28px;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 141px;
+}
+
+.close {
+    margin-right: 27px;
+    margin-top: 12px;
+}
+
+.file-name {
+    width: 100%;
+    height: 60px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.file-input {
+    width: 100%;
+    height: 290px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 30px !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.save-file {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-family: 500 !important;
+    font-size: 40px;
+    background-color: #9EC862;
+    width: 200px;
+    height: 60px;
+    margin-top: 27px;
+    margin-left: 280px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px lightgrey;
+}
+
+.file-explorer {
+    margin: auto;
+    height: 550px;
+    width: 750px;
+    background-color: white;
+    margin-top: 41px;
+}
+
+#file-explorer-heading {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #9EC862;
+    margin-left: 32px;
+}
+
+.file-thumb-container {
+    width: 100%;
+    height: 490px;
+    padding: 32px 32px 32px 32px;
+    overflow: scroll;
+}
+
+.file-thumb {
+    font-size: 100px;
+    margin: 8px;
+    float: left;
+}
+
+.explorer-file-name {
+    font-size: 20px !important;
+}
+
+input {
+    border: none;
+}
+
+.glyphicon-file {
+    color: #fdb900;
+}
+
+
+#box{
+    margin: auto;
+    width: 145px;
+}
+
+#typing-animation{
+    font-family: monospace;
+    width: 0px;
+    color: #FFE7AD;
+    font-size: 20px;
+    height: 25px;
+    font-weight: 600 !important;
+    margin: 8px;
+    overflow: hidden;
+    border-right: 2px solid #FFE7AD;
+    display: inline-block;
+    animation: typing-effect 5s infinite;
+}
+
+@keyframes typing-effect{
+    0% {width: 0px; border-right: none;}
+    5% {width: 12px; border-right: 2px solid #FFE7AD;}
+    10% {width: 24px; border-right: none;}
+    15% {width: 36px; border-right: 2px solid #FFE7AD;}
+    20% {width: 48px; border-right: none;}
+    25% {width: 60px; border-right: 2px solid #FFE7AD;}
+    30% {width: 72px; border-right: none;}
+    35% {width: 84px; border-right: 2px solid #FFE7AD;}
+    40% {width: 96px; border-right: none;}
+    45% {width: 108px; border-right: 2px solid #FFE7AD;}
+    50% {width: 120px; border-right: none;}
+    55% {width: 120px; border-right: none;}
+    60% {width: 108px; border-right: 2px solid #FFE7AD;}
+    65% {width: 96px; border-right: none;}
+    70% {width: 84px; border-right: 2px solid #FFE7AD;}
+    75% {width: 72px; border-right: none;}
+    80% {width: 60px; border-right: 2px solid #FFE7AD;}
+    85% {width: 48px; border-right: none;}
+    90% {width: 36px; border-right: 2px solid #FFE7AD;}
+    95% {width: 24px; border-right: none;}
+    100% {width: 12px; border-right: 2px solid #FFE7AD;}
+}

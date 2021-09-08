@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Notes</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="code.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="file-explorer">
+            <div class="file-header"><span id="file-explorer-heading">File Explorer</span></div>
+            <div class="file-thumb-container">
+                <div class="file-thumb"><button onclick="loadFile('newFile')"><i class="glyphicon glyphicon-file"></i><div class="explorer-file-name">newFile</div></button></div>
+            </div>
+        </div>
+        <div class="file">
+            <div class="file-header">
+                <div class="delete-file" onclick="deleteFile()"><button><i class="glyphicon glyphicon-trash"></i></button></div>
+                <div class="new-file" onclick="newFile()"><button><i class="glyphicon glyphicon-plus"></i></button></div>
+                <div class="close" onclick="closeFile()"><button><i class="glyphicon glyphicon-remove"></i></button></div>
+            </div>
+            <input class="file-name" placeholder="file name"></input>
+            <textarea class="file-input" placeholder="Type your notes here..">
+            </textarea>
+            <button class="save-file" onclick="saveFile()">Save</button>
+        </div>
+        <script>
+            window.onload = readFilesToExplorer;
+        </script>
+        <div id="box">
+            <div id="typing-animation">
+                &copy;NagaDeepak
+            </div>
+        </div>
+    </body>
+</html>
